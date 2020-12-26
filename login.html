@@ -98,29 +98,39 @@
 	}
 	</script>
 
-
+<!-- <form method="post"></form> -->
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#">
 			<h1>Create Account</h1>
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button style="cursor: pointer;">Sign Up</button>
-		</form>
+			<input type="text" id="sigup-name" placeholder="Name" />
+			<input type="email" id="signup-email" placeholder="Email" />
+			<input type="password" id="signup-password" placeholder="Password" />
+			<button style="cursor: pointer;" type="submit" onclick="usersignup()">Sign Up</button>
+  <!-- </form> -->
 	</div>
-	<div class="form-container sign-in-container">
-		<form action="#">
+	<!-- <div class="form-container sign-in-container">
+    <form  method="POST" > -->
 			<h1>Sign in</h1>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button style="cursor: pointer;" onclick="userlogin()">Sign In</button>
-		</form>
+			<input type="email" id="email-login"placeholder="Email" />
+			<input type="password" id="password-login"placeholder="Password" />
+			<button style="cursor: pointer;" type="submit" onclick="userlogin()">Sign In</button>
+		<!-- </form> -->
 	</div>
 	<div class="overlay-container">
 		<div class="overlay">
 			<div class="overlay-panel overlay-left">
-				<h1>Welcome Back!</h1>
+				<h1>Welcome Back!</h1>ENTS
+        COMMON FORUM
+        HELP
+        INTER-TEAM CHANNEL
+        EVALUATION CHANNEL
+        DASHBOARD
+        Hack 1 Name
+        Exit
+        INTER-TEAM CHANNEL
+        ￼ ￼
+        
+        
 				<p style="font-weight: 200;">To keep connected with us please login</p>
 				<button class="ghost" id="signIn" style="cursor: pointer;">Sign In</button>
 			</div>
