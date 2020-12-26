@@ -50,7 +50,6 @@ def create_user(request):
         'user_id': user.id,
         'name': user.first_name+" "+user.last_name,
         'email': user.email,
-        'token': token
     })
 
 csrf_exempt
@@ -78,7 +77,7 @@ def login(request):
             'user_id': user.id,
             'name': user.first_name+" "+user.last_name,
             'email': user.email,
-            'token': token
+            
         })
 
     
